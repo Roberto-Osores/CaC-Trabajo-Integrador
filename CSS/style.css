@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-blue: #243c54;
+    --blue: #344e6c;
+    --gray-blue: #617d88;
+    --light-blue: #b6d6d2;
+    --light: #f4dcbb;
+    --accent: #3ce3b4;
+
+}
+
+.navbar.bg-navbar{
+background-color: var(--dark-blue) !important;
+
+
+}
+
+.navbar-toggler.navbar-toggler-icon{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28182, 214, 210, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    
+}
+.navbar.navbar-expand-lg{
+    
+    --bs-navbar-color: var(--light-blue) !important;
+    --bs-navbar-hover-color:var(--accent) !important;
+    
+   
+    
+}
+
+
+
+.navbar img{
+    width: 150px;
+}
+
