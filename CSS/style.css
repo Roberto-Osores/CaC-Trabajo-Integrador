@@ -14,29 +14,35 @@
     --accent: #3ce3b4;
 
 }
-
+/* NAVBAR START */
 .navbar.bg-navbar{
 background-color: var(--dark-blue) !important;
 
-
 }
 
-.navbar-toggler.navbar-toggler-icon{
+.navbar-toggler{
+    border: transparent !important;
+}
+
+.navbar-toggler-icon{
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28182, 214, 210, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-    
 }
+
 .navbar.navbar-expand-lg{
     
     --bs-navbar-color: var(--light-blue) !important;
     --bs-navbar-hover-color:var(--accent) !important;
-    
-   
-    
 }
-
-
 
 .navbar img{
     width: 150px;
 }
+
+/* NAVBAR END */
+
+/* SHOWCASE START */
+
+
+
+/* NAVBAR END */
 
