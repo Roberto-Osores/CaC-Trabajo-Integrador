@@ -77,6 +77,7 @@ align-items: flex-end !important;
 
 .projects-title{
     text-align: center;
+    padding: 2rem;
 }
 
 .projects-container{
@@ -90,26 +91,75 @@ align-items: flex-end !important;
 .projects-cards{
     width: 30%;
     min-width: 200px;
+    border: #617d8870 1px solid;
 }
 
 .projects-cards img{
 width: 100%;
+}
 
+.projects-cards :not(img){
+    padding: 0rem 1rem ;
+}
+
+.projects-cards p{
+    margin-bottom: 1rem;
 }
 
 .projects-label{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content:flex-start;
 }
 
 .projects-label h6{
-font-size:0.8rem;
-font-weight: 500;
-padding: 0.3rem;
-margin-bottom: 0;
+font-size:0.7rem;
+font-weight: 700;
+padding: 0.2rem;
+margin-right: 0.5rem;
+margin-bottom: 0.5rem;
 }
 
 .projects-label h3{
     font-weight: 700;
+}
+
+.red-label{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.green-label{
+background-color: green;
+border-radius: 5px;
+color: white;
+}
+
+.yellow-label{
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.blue-label{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+.orange-label{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.lightgreen-label{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.pink-label{
+    background-color: pink;
+    border-radius: 5px;
 }
 /* PROJECTS END */
