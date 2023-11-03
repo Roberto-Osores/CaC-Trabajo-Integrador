@@ -130,16 +130,35 @@
           <p class="discount-requirement">*presentar documentación</p>
 
         </div>
-
+      </div>
         <div class="form-title">
           <p>VENTA</p>
           <h1>VALOR DE TICKET $200</h1>
         </div>
 
-        <div class="form">
+        <form class="ticket-form" action="">
+          <div class="split-inputs-container">
+           <input type="text" class="split-inputs" name="Nombre" placeholder="Nombre/s">
+           <input type="text" class="split-inputs" name="Apellido" placeholder="Apellido/s">
+          </div>
+
+           <input type="email" class="email-input" name="email" placeholder="E-Mail">
+
+          <div class="split-inputs-container">
+           <input type="number" class="split-inputs" name="Cantidad" placeholder="Cantidad">
+           <select name="Categoria" class="split-inputs">
+            <option value="Estudiante">Estudiante</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Junior">Junior</option>
+           </select>
+          </div>
           
-        </div>
-      </div>
+          <output name="ticket-output" class="ticket-output">
+            El valor de tu compra es:
+
+          </output>
+
+        </form>
 
       
     </section>
