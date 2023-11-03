@@ -163,3 +163,63 @@ color: white;
     border-radius: 5px;
 }
 /* PROJECTS END */
+
+/*JS FORM START*/
+
+.destinatarios{
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.destinatarios .discount{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.destinatarios .discount-requirement{
+    color: gray;
+    font-size: 0.9rem;
+}
+.estudiante-card{
+    border: solid rgb(0, 123, 255) 1.5px;
+    width: 30%;
+    min-width: 180px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.trainee-card{
+    border: solid rgb(23, 182, 184) 1.5px;
+    width: 30%;
+    min-width: 180px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.junior-card{
+    border: solid rgb(255, 193, 7) 1.5px;
+    width: 30%;
+    min-width: 180px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.form-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-title p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+/*JS FORM END*/
