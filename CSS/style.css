@@ -166,9 +166,13 @@ color: white;
 
 /*JS FORM START*/
 
+.buyTickets-title{
+    text-align: center;
+    padding: 2rem;
+}
 .destinatarios{
     width: 70%;
-    margin: 5rem auto;
+    margin: 0 auto 1.5rem;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
@@ -253,13 +257,21 @@ color: white;
 
 .ticket-output{
     background-color: lightblue;
-    border-radius: 1px;
+    border-radius: 5px;
+    border:0.5px solid rgb(0, 100, 184);
+    color: rgb(0, 100, 184);
+    font-weight: 600;
+    height: 3rem;
+    line-height: 3rem;
     
+}
+.ticket-output p{
+    margin:auto 1rem;
 }
 
 .form-button {
     width: 49%;
-    background-color: #009349;
+    background-color: rgb(151, 201, 62);
     color: white;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;

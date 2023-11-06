@@ -27,13 +27,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item ms-auto">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#showcase">Sobre mi</a>
               </li>
               <li class="nav-item ms-auto">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#myProjects">Mis Proyectos</a>
               </li>
               <li class="nav-item ms-auto">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#buyTickets">Comprar Tickets</a>
               </li>
               <li class="nav-item ms-auto">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -46,7 +46,7 @@
 
       <!--SHOWCASE SECTION START-->
 
-      <section class="showcase">
+      <section class="showcase" id="showcase">
         <div class="showcase-shadow">
         <div class="showcase-flex">
           <div class="showcase-content">
@@ -64,9 +64,9 @@
 
     <!--PROJECTS SECTION START-->
   
-    <section class="projects">
+    <section class="projects" id="myProjects">
       <div class="projects-title">
-        <h3>Proyectos en los que participe</h1>
+        <h3>Proyectos en los que participe</h3>
       </div>
       <div class="projects-container">
 
@@ -107,7 +107,8 @@
     <!--PROJECTS SECTION END-->
 
     <!--JS FORM START-->
-    <section>
+    <section id="buyTickets">
+      <h3 class="buyTickets-title">Comprar Tickets</h3>
       <div class="destinatarios">
         <div class="estudiante-card">
           <h4>Estudiante</h4>
@@ -154,7 +155,7 @@
           </div>
           
           <output name="ticket-output" class="ticket-output" id="ticketsOutput">
-            El valor de tu compra es:
+            <p>Total a pagar:$</p>
           </output>
 
           <div class="split-inputs-container">
