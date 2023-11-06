@@ -236,17 +236,34 @@ color: white;
 }
 .split-inputs{
     width: 50%;
-    margin: 0.2rem 0.2rem;
+    margin: 1rem 0.2rem;
+    padding: 0.2rem;
+    border-color: rgba(128, 128, 128, 0.4);
+    border-width: 0.1rem;
 
 }
 
 .email-input{
     width: 100%;
     margin: 0.2rem 0.2rem;
+    padding: 0.2rem;
+    border-color: rgba(128, 128, 128, 0.4);
+    border-width: 0.1rem;
 }
 
 .ticket-output{
     background-color: lightblue;
     border-radius: 1px;
+    
 }
+
+.form-button {
+    width: 49%;
+    background-color: #009349;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+  }
 /*JS FORM END*/
