@@ -278,4 +278,21 @@ color: white;
     border-radius: 5px;
     border: none;
   }
+
+  .campo-invalido{
+    border: 0.2rem solid red;
+    border-radius: 5px;
+  }
+
+  .error{
+    font-weight: 600;
+    color: red;
+    text-align: center;
+  }
+
+  .exito{
+    font-weight: 600;
+    color: rgb(58, 153, 58);
+    text-align: center;
+  }
 /*JS FORM END*/

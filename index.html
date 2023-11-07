@@ -137,13 +137,13 @@
           <h1>VALOR DE TICKET $200</h1>
         </div>
 
-        <form class="ticket-form" action="">
+        <form class="ticket-form" >
           <div class="split-inputs-container">
-           <input type="text" class="split-inputs" name="Nombre" placeholder="Nombre/s">
-           <input type="text" class="split-inputs" name="Apellido" placeholder="Apellido/s">
+           <input type="text" class="split-inputs"  id="Nombre"  placeholder="Nombre/s">
+           <input type="text" class="split-inputs" id="Apellido" name="Apellido" placeholder="Apellido/s">
           </div>
 
-           <input type="email" class="email-input" name="email" placeholder="E-Mail">
+           <input type="email" class="email-input" id="Email" placeholder="E-Mail">
 
           <div class="split-inputs-container">
            <input type="number" class="split-inputs" name="Cantidad" placeholder="Cantidad" id="ticketsQuantity">
@@ -159,10 +159,10 @@
           </output>
 
           <div class="split-inputs-container">
-            <button class="form-button" id="Borrar" type="button">Borrar</button>
+            <button class="form-button" id="Borrar" type="reset">Borrar</button>
             <button class="form-button" id="Resumen" type="button">Resumen</button>
-
           </div>
+          <p id="alerta" class=""> </p>
 
         </form>
 
